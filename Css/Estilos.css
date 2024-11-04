@@ -1,0 +1,33 @@
+.Perfil{
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.Imagem{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 10px auto;
+    border: 3px solid #f0f5fa;
+}
+
+.Text{
+    text-align: center;
+    background-color: #e9ecef;
+    margin: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    color:#555;
+}
+
+.botao:houver{
+    background-color: #0056b3;
+
+}

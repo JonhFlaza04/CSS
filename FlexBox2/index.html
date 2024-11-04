@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4 Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 10;
+            padding: 10;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 10;
+        }
+        
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <button>Botão 1</button>
+        <button>Botão 2</button>
+        <button>Botão 3</button>
+        <button>Botão 4</button>
+        <button>Botão 5</button>
+    </div>
+</body>
+</html>
